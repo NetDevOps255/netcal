@@ -46,7 +46,6 @@ soupsieve==2.2.1
 tenacity==7.0.0
 textfsm==1.1.0
 tqdm==4.61.0
-twisted-iocpsupport==1.0.1
 unicodecsv==0.14.1
 urllib3==1.26.4
 virtualenv==20.13.0
