@@ -3,7 +3,7 @@ import ipaddress
 
 
 app = Flask(__name__)
-app.secret_key = "love"
+app.secret_key = "net"
 '''
 @app.route('/favicon.ico')
 def favicon():
