@@ -76,6 +76,10 @@ a:hover {
 i {
   margin: 5px;
 }
+  
+#logo {
+  padding: 0px 0px 0px 60px;
+}
 
 </style>
 </head>
@@ -83,7 +87,7 @@ i {
   
   <div id="centered">
     <form action="results" method="post">
-      <h2>NetCal</h2>
+      <h2 id="logo">NetCal</h2>
       <label for="name">Enter IP Network Address</label>
       <input type="text" name="network" placeholder="Ex. 192.168.1.0/24" required><br>
       <input type="submit" value="Submit" id="send"><br>
